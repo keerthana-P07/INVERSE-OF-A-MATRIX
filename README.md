@@ -8,7 +8,11 @@ To write a python program to find the inverse of a matrix
 Step 1: Import the numpy library
 Step 2: create a matrix using numpy
 Step 3: calc the result using np.linalg.inv
+<<<<<<< HEAD
 Step 4: End the Program
+=======
+Step 4: End the Program 
+>>>>>>> b288a09 (Update inverse of matrix)
 
 ## Program:
 ```
@@ -23,10 +27,15 @@ matrix = np.array([[2,1,1],[1,1,1],[1,-1,2]])
 inverse = np.linalg.inv(matrix)
 print(inverse)
 ```
+<<<<<<< HEAD
 
 ## Output:
 <img width="1300" height="310" alt="Screenshot 2026-08-11 111022" src="https://github.com/user-attachments/assets/7907bd60-e231-4cd2-8056-2ef45378c30a" />
 
+=======
+## Output:
+![alt text](<Screenshot 2026-08-11 111022.png>)
+>>>>>>> b288a09 (Update inverse of matrix)
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
 
